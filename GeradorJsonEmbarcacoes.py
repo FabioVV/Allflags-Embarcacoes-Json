@@ -23,6 +23,9 @@ results_sql = sql.fetchall()
 
 ## Váriaveis
 
+#Caso precise
+main_path = ''
+
 embarcacoes = {'embarcacoes':[]} 
 cwd = os.getcwd()  
 images_path = f"{cwd}/images"
