@@ -2,93 +2,126 @@
     "embarcacoes": [
         {
             "id": 1,
+            "nome": "Embarc01",
             "marca": "NX",
-            "nome": "Embarc01"
+            "imagens": [
+                {
+                    "path": "C:\\Users\\fabin\\OneDrive\\\u00c1rea de Trabalho\\Allflags Totem json/images/NX/embarc-image-01.png"
+                },
+                {
+                    "path": "C:\\Users\\fabin\\OneDrive\\\u00c1rea de Trabalho\\Allflags Totem json/images/NX/embarc-image-02.png"
+                },
+                {
+                    "path": "C:\\Users\\fabin\\OneDrive\\\u00c1rea de Trabalho\\Allflags Totem json/images/NX/embarc-image-03.png"
+                }
+            ],
+            "videos": [
+                {
+                    "path": "C:\\Users\\fabin\\OneDrive\\\u00c1rea de Trabalho\\Allflags Totem json/videos/NX/embarc-image-01.mp4.png"
+                },
+                {
+                    "path": "C:\\Users\\fabin\\OneDrive\\\u00c1rea de Trabalho\\Allflags Totem json/videos/NX/embarc-image-02.mp4.png"
+                },
+                {
+                    "path": "C:\\Users\\fabin\\OneDrive\\\u00c1rea de Trabalho\\Allflags Totem json/videos/NX/embarc-image-03.mp4.png"
+                }
+            ]
         },
         {
             "id": 2,
+            "nome": "Embarc02",
             "marca": "TX",
-            "nome": "Embarc02"
+            "imagens": [
+                {
+                    "path": "C:\\Users\\fabin\\OneDrive\\\u00c1rea de Trabalho\\Allflags Totem json/images/TX/embarc-image-01.png"
+                },
+                {
+                    "path": "C:\\Users\\fabin\\OneDrive\\\u00c1rea de Trabalho\\Allflags Totem json/images/TX/embarc-image-02.png"
+                },
+                {
+                    "path": "C:\\Users\\fabin\\OneDrive\\\u00c1rea de Trabalho\\Allflags Totem json/images/TX/embarc-image-03.png"
+                }
+            ],
+            "videos": [
+                {
+                    "path": "C:\\Users\\fabin\\OneDrive\\\u00c1rea de Trabalho\\Allflags Totem json/videos/TX/embarc-image-01.mp4.png"
+                },
+                {
+                    "path": "C:\\Users\\fabin\\OneDrive\\\u00c1rea de Trabalho\\Allflags Totem json/videos/TX/embarc-image-02.mp4.png"
+                },
+                {
+                    "path": "C:\\Users\\fabin\\OneDrive\\\u00c1rea de Trabalho\\Allflags Totem json/videos/TX/embarc-image-03.mp4.png"
+                }
+            ]
         },
         {
             "id": 3,
+            "nome": "Embarc03",
             "marca": "CX",
-            "nome": "Embarc03"
+            "imagens": [
+                {
+                    "path": "C:\\Users\\fabin\\OneDrive\\\u00c1rea de Trabalho\\Allflags Totem json/images/CX/embarc-image-01.png"
+                },
+                {
+                    "path": "C:\\Users\\fabin\\OneDrive\\\u00c1rea de Trabalho\\Allflags Totem json/images/CX/embarc-image-02.png"
+                },
+                {
+                    "path": "C:\\Users\\fabin\\OneDrive\\\u00c1rea de Trabalho\\Allflags Totem json/images/CX/embarc-image-03.png"
+                }
+            ],
+            "videos": [
+                {
+                    "path": "C:\\Users\\fabin\\OneDrive\\\u00c1rea de Trabalho\\Allflags Totem json/videos/CX/embarc-image-01.mp4.png"
+                },
+                {
+                    "path": "C:\\Users\\fabin\\OneDrive\\\u00c1rea de Trabalho\\Allflags Totem json/videos/CX/embarc-image-02.mp4.png"
+                },
+                {
+                    "path": "C:\\Users\\fabin\\OneDrive\\\u00c1rea de Trabalho\\Allflags Totem json/videos/CX/embarc-image-03.mp4.png"
+                }
+            ]
         },
         {
             "id": 4,
+            "nome": "Embarc04",
             "marca": "DX",
-            "nome": "Embarc04"
+            "imagens": [],
+            "videos": []
         },
         {
             "id": 5,
+            "nome": "Embarc06",
             "marca": "FX",
-            "nome": "Embarc06"
+            "imagens": [],
+            "videos": []
         },
         {
             "id": 6,
+            "nome": "Embarc07",
             "marca": "LX",
-            "nome": "Embarc07"
+            "imagens": [],
+            "videos": []
         },
         {
             "id": 7,
+            "nome": "Embarc08",
             "marca": "KX",
-            "nome": "Embarc08"
+            "imagens": [],
+            "videos": []
         },
         {
             "id": 8,
+            "nome": "Embarc09",
             "marca": "OX",
-            "nome": "Embarc09"
+            "imagens": [],
+            "videos": []
         },
         {
             "id": 9,
+            "nome": "Embarc10",
             "marca": "RX",
-            "nome": "Embarc10"
-        },
-        {
-            "id": 1,
-            "marca": "NX",
-            "nome": "Embarc01"
-        },
-        {
-            "id": 2,
-            "marca": "TX",
-            "nome": "Embarc02"
-        },
-        {
-            "id": 3,
-            "marca": "CX",
-            "nome": "Embarc03"
-        },
-        {
-            "id": 4,
-            "marca": "DX",
-            "nome": "Embarc04"
-        },
-        {
-            "id": 5,
-            "marca": "FX",
-            "nome": "Embarc06"
-        },
-        {
-            "id": 6,
-            "marca": "LX",
-            "nome": "Embarc07"
-        },
-        {
-            "id": 7,
-            "marca": "KX",
-            "nome": "Embarc08"
-        },
-        {
-            "id": 8,
-            "marca": "OX",
-            "nome": "Embarc09"
-        },
-        {
-            "id": 9,
-            "marca": "RX",
-            "nome": "Embarc10"
+            "imagens": [],
+            "videos": []
         }
     ]
 }
