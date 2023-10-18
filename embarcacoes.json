@@ -1,0 +1,94 @@
+{
+    "embarcacoes": [
+        {
+            "id": 1,
+            "marca": "NX",
+            "nome": "Embarc01"
+        },
+        {
+            "id": 2,
+            "marca": "TX",
+            "nome": "Embarc02"
+        },
+        {
+            "id": 3,
+            "marca": "CX",
+            "nome": "Embarc03"
+        },
+        {
+            "id": 4,
+            "marca": "DX",
+            "nome": "Embarc04"
+        },
+        {
+            "id": 5,
+            "marca": "FX",
+            "nome": "Embarc06"
+        },
+        {
+            "id": 6,
+            "marca": "LX",
+            "nome": "Embarc07"
+        },
+        {
+            "id": 7,
+            "marca": "KX",
+            "nome": "Embarc08"
+        },
+        {
+            "id": 8,
+            "marca": "OX",
+            "nome": "Embarc09"
+        },
+        {
+            "id": 9,
+            "marca": "RX",
+            "nome": "Embarc10"
+        },
+        {
+            "id": 1,
+            "marca": "NX",
+            "nome": "Embarc01"
+        },
+        {
+            "id": 2,
+            "marca": "TX",
+            "nome": "Embarc02"
+        },
+        {
+            "id": 3,
+            "marca": "CX",
+            "nome": "Embarc03"
+        },
+        {
+            "id": 4,
+            "marca": "DX",
+            "nome": "Embarc04"
+        },
+        {
+            "id": 5,
+            "marca": "FX",
+            "nome": "Embarc06"
+        },
+        {
+            "id": 6,
+            "marca": "LX",
+            "nome": "Embarc07"
+        },
+        {
+            "id": 7,
+            "marca": "KX",
+            "nome": "Embarc08"
+        },
+        {
+            "id": 8,
+            "marca": "OX",
+            "nome": "Embarc09"
+        },
+        {
+            "id": 9,
+            "marca": "RX",
+            "nome": "Embarc10"
+        }
+    ]
+}
