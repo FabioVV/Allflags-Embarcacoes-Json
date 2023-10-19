@@ -21,9 +21,6 @@ sql.execute("""
 """)
 results_sql = sql.fetchall()
 
-#  print(results_sql)
-# exit()
-
 
 ## Váriaveis
 
