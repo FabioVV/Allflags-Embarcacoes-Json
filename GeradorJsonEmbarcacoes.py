@@ -2,7 +2,7 @@ import mysql.connector as MC
 import json
 import os
 
-## Conexão e SELECT com o banco
+## Conexão: OP
 
 mydatabase = MC.connect(
     host='srv-dev',
@@ -22,15 +22,11 @@ sql.execute("""
 results_sql = sql.fetchall()
 
 
-## Váriaveis
 
-#Caso precise
-main_path = ''
-
+work_path = os.getcwd()  
 embarcacoes = []
-cwd = os.getcwd()  
-images_path = f"{cwd}/images"
-videos_path = f"{cwd}/videos"
+images_path = f"{work_path}/images"
+videos_path = f"{work_path}/videos"
 dir_list_images = os.listdir(images_path)  
 dir_list_videos = os.listdir(videos_path)  
 
