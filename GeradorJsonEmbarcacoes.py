@@ -72,3 +72,5 @@ for embarc in embarcacoes:
 
 with open("embarcacoes.json", "w") as arquivo:
     json.dump(embarcacoes, arquivo, indent=4)
+
+print('JSON gerado.')
