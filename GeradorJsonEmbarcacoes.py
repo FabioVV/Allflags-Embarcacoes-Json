@@ -17,7 +17,14 @@ print('Conectado ao banco.')
 
 
 sql.execute("""
-        SELECT id_embarcacao, modelo, motor FROM embarcacoes 
+        SELECT E.id_embarcacao, E.modelo,
+        M.nome_marina, M.estado, M.cidade, M.bairro,
+        M.complemento
+            
+        FROM embarcacoes as E
+        INNER JOIN marinas AS M ON M.id_marina = E.id_marina
+            
+        WHERE M.ativo = 'S'
 """)
 results_sql = sql.fetchall()
 
@@ -38,7 +45,9 @@ for embarcacao in results_sql:
     embarcacoes.append({
         'id_embarcacao':embarcacao[0], 
         'modelo':embarcacao[1], 
-        'motor':embarcacao[2],
+        'marina':embarcacao[2],
+        'cidade':embarcacao[3],
+        'estado':embarcacao[4],
         'imagens':[],
         'videos':[]
     })
