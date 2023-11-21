@@ -12,11 +12,13 @@ mydatabase = MC.connect(
 )
 
 
-sql = mydatabase.cursor()
+sql_novos_seminovos = mydatabase.cursor()
+sql_share = mydatabase.cursor()
+
 print('Conectado ao banco.')
 
 
-sql.execute("""
+sql_novos_seminovos.execute("""
         SELECT E.id_embarcacao, E.modelo,
         M.nome_marina, M.estado, M.cidade, M.bairro,
         M.complemento
@@ -26,7 +28,20 @@ sql.execute("""
             
         WHERE M.ativo = 'S'
 """)
-results_sql = sql.fetchall()
+sql_share.execute("""
+        SELECT E.id_embarcacao, E.modelo,
+        M.nome_marina, M.estado, M.cidade, M.bairro,
+        M.complemento
+            
+        FROM embarcacoes as E
+        INNER JOIN marinas AS M ON M.id_marina = E.id_marina
+            
+        WHERE M.ativo = 'S'
+""")
+
+
+results_sql_novos_seminovos = sql_novos_seminovos.fetchall()
+results_sql_share = sql_share.fetchall()
 
 
 
@@ -75,7 +90,12 @@ for embarc in embarcacoes:
 
 ## Cria arquivo JSON baseado no dicionário de embarcações
 
-with open("embarcacoes.json", "w") as arquivo:
+with open("embarcacoes_novos_seminovos.json", "w") as arquivo:
     json.dump(embarcacoes, arquivo, indent=4)
 
-print('JSON gerado.')
+print('JSON Novo/Semi-novos gerado.')
+
+with open("embarcacoes_share.json", "w") as arquivo:
+    json.dump(embarcacoes, arquivo, indent=4)
+
+print('JSON Share gerado.')
