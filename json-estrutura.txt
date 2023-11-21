@@ -1,0 +1,41 @@
+
+- Estrutura de dados(JSON) das novas e semi-novas embarcações -
+ - Marcas
+    - Modelos de Embarcações
+        - Dados técnicos
+            - Tamanho
+            - Peso
+            - Cor
+            - Etc.
+        - Links das Fotos
+            - Imagens das embarcações
+        - Links dos Vídeos
+            - Vídeos das embarcações
+        - Tour
+            - Em análise.
+
+
+- Estrutura de dados(JSON) do Share embarcações -
+    - Modelos de Embarcações
+        - Dados técnicos
+            - Tamanho
+            - Peso
+            - Cor
+            - Etc.
+        - Links das Fotos
+            - Imagens das embarcações
+        - Links dos Vídeos
+            - Vídeos das embarcações
+        - Tour
+    - Por localização
+        - Localidade
+            - Dados técnicos
+                - Tamanho
+                - Peso
+                - Cor
+                - Etc.
+            - Links das Fotos
+                - Imagens das embarcações
+            - Links dos Vídeos
+                - Vídeos das embarcações
+            - Tour
