@@ -35,14 +35,14 @@ print('Conectado ao banco.')
 
 
 sql_novos_seminovos.execute("""
-        SELECT E.id_embarcacao, E.modelo,
-        M.nome_marina, M.estado, M.cidade, M.bairro,
-        M.complemento
-            
-        FROM embarcacoes as E
-        INNER JOIN marinas AS M ON M.id_marina = E.id_marina
-            
-        WHERE M.ativo = 'S'
+    SELECT P.modelo, F.nome FROM produtos AS P 
+    INNER JOIN fornecedores AS F ON P.id_fornecedor_fab = F.id_fornecedor 
+    WHERE F.estaleiro = 'S' 
+    AND F.ativo = 'S' 
+    AND P.ativo = 'S'
+    AND P.tipo_produto = 'C' 
+    AND P.modelo != 'XXXX' 
+    AND P.modelo != 'teste';
 """)
 sql_share_modelo.execute("""
         SELECT E.id_embarcacao, E.modelo,
